@@ -26,7 +26,7 @@ main {
 
 .lk-price {
   width: 60%;
-  max-width: 600px;
+  max-width: 700px;
   border-radius: 1rem;
   overflow: hidden;
   display: grid;
@@ -80,15 +80,20 @@ main {
   font-weight: 400;
   display: flex;
   align-items: center;
+  margin-bottom: 0.5rem;
 }
 
 .lk-price .left .price {
   /* color: #fff; */
   font-size: 2rem;
+  margin-right: 0.8rem;
+  font-weight: 700;
 }
 
 .lk-price .left p {
   flex-grow: 1;
+  color: #fff;
+  margin-bottom: 1rem;
 }
 
 .lk-price .left .signup {
@@ -107,4 +112,16 @@ main {
 
 .lk-price .right {
   background-color: var(--light-cyan);
+}
+
+.lk-price .right h2 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+.lk-price .right p {
+  color: #fff;
+  line-height: 1.5;
 }
