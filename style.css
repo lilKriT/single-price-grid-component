@@ -52,7 +52,7 @@ main {
 .lk-price .header h2 {
   color: var(--bright-yellow);
   font-size: 1.25rem;
-  margin-bottom: .7rem;
+  margin-bottom: 0.7rem;
 }
 
 .lk-price .header p {
@@ -62,7 +62,49 @@ main {
 
 .lk-price .left {
   background-color: var(--cyan);
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
 }
+
+.lk-price .left h2 {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.8rem;
+}
+
+.lk-price .left h3 {
+  color: var(--light-gray);
+  font-size: 1.25rem;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+}
+
+.lk-price .left .price {
+  /* color: #fff; */
+  font-size: 2rem;
+}
+
+.lk-price .left p {
+  flex-grow: 1;
+}
+
+.lk-price .left .signup {
+  /* display: block; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bright-yellow);
+  width: 100%;
+  height: 2.8rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 5px 10px rgb(0 0 0 / 0.3);
+  color: #fff;
+  text-decoration: none;
+}
+
 .lk-price .right {
   background-color: var(--light-cyan);
 }
