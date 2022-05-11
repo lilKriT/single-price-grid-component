@@ -132,7 +132,7 @@ main {
   }
 
   .lk-price > div {
-    padding: 1.5rem;
+    padding: 2rem 1.5rem;
   }
 
   .lk-price .header {
@@ -141,16 +141,36 @@ main {
 
   .lk-price .header h1 {
     font-size: 1.25rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.4rem;
+    font-weight: 700;
   }
 
   .lk-price .header h2 {
     font-size: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.2rem;
   }
 
   .lk-price .header p {
     line-height: 1.8;
   }
-  
+
+  .lk-price .left h2 {
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+  }
+
+  .lk-price .left p {
+    margin-bottom: 2.2rem;
+    color: var(--light-gray);
+  }
+
+  .lk-price .right h2 {
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+  }
+
+  .lk-price .right p {
+    color: var(--light-gray);
+    max-width: 70%;
+  }
 }
